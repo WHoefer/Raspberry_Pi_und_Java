@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=cal\ singleValue\ valueType\ info
+comment0.target=SingleValue(java.util.Calendar,\ java.lang.String,\ int,\ java.lang.String)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ SingleValue\r\n
+comment1.params=
+comment1.target=java.util.Calendar\ getCal()
+comment2.params=
+comment2.target=java.lang.String\ getSingleValue()
+comment3.params=
+comment3.target=int\ getValueType()
+comment4.params=
+comment4.target=java.lang.String\ getInfo()
+numComments=5

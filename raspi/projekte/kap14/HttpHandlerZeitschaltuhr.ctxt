@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HttpHandlerZeitschaltuhr()
+comment1.params=schedulerPort\ dataStore\ relais
+comment1.target=void\ initScheduler(SchedulerPort,\ raspi.webservice.DataStore,\ com.pi4j.io.gpio.GpioPinDigitalOutput)
+comment2.params=httpExchange
+comment2.target=void\ handle(com.sun.net.httpserver.HttpExchange)
+comment2.text=\n\ \ \n\ @param\ httpExchange\ Encapsulation\ of\ HTTP\ request\ and\ response.\n\ @throws\ java.io.IOException\n
+comment3.params=info\ responseStr
+comment3.target=void\ createErrorResponse(java.lang.String,\ java.lang.StringBuilder)
+comment4.params=responseStr\ schedulerPort\ gpio
+comment4.target=void\ createScheduleResponse(java.lang.StringBuilder,\ SchedulerPort,\ java.lang.String)
+numComments=5

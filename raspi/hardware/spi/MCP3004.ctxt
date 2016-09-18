@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=cs\ clock
+comment0.target=MCP3004(int,\ int)
+comment0.text=\n\ MCP3004\ Constructor\n\n\ @param\ cs\ Chip\ Select\ kann\ 0\ oder\ 1\ sein\n\ @param\ clock\ Busfrequenz\ in\ Hz\n
+comment1.params=channel
+comment1.target=int\ readChannel(int)
+comment1.text=\n\ Method\ readChannel<br>\n\ \n\ Liest\ den\ gewandelten\ Wert\ von\ Kanal\ 0\ -\ 3.\n\n\ @param\ channel\ 0\ bis\ 3\ f\u00FCr\ Kanal\ 0\ bis\ 3\n\ @return\ Gewandelte\ Wert\n
+comment2.params=channel
+comment2.target=double\ readChannelInVolt(int)
+numComments=3

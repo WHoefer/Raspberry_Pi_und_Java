@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HttpHandlerZisterne()
+comment1.params=httpExchange
+comment1.target=void\ handle(com.sun.net.httpserver.HttpExchange)
+comment1.text=\n\ Only\ method\ prescribed\ by\ the\ HttpHandler\ interface.\n\ \ \n\ @param\ httpExchange\ Encapsulation\ of\ HTTP\ request\ and\ response.\n\ @throws\ java.io.IOException\n
+comment2.params=headerMap\ responseStr
+comment2.target=void\ getCurrent(java.util.Map,\ java.lang.StringBuilder)
+comment3.params=responseStr\ httpExchange
+comment3.target=void\ response(java.lang.StringBuilder,\ com.sun.net.httpserver.HttpExchange)
+numComments=4

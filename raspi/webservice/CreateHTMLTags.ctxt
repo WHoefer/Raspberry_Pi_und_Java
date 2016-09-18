@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=map\ strBuilder
+comment0.target=void\ createParameterLine(java.util.Map,\ java.lang.StringBuilder)
+comment1.params=name\ map\ strBuilder
+comment1.target=void\ createStartTag(java.lang.String,\ java.util.Map,\ java.lang.StringBuilder)
+comment2.params=name\ strBuilder
+comment2.target=void\ createStoppTag(java.lang.String,\ java.lang.StringBuilder)
+comment3.params=name\ map\ strBuilder
+comment3.target=void\ createCloseTag(java.lang.String,\ java.util.Map,\ java.lang.StringBuilder)
+comment4.params=c\ strBuilder
+comment4.target=void\ createColorToHtml(java.awt.Color,\ java.lang.StringBuilder)
+comment5.params=f\ strBuilder
+comment5.target=void\ createFontToHtml(java.awt.Font,\ java.lang.StringBuilder)
+comment5.text=\ \ \ \ public\ static\ void\ createBgColorToHtml(JWebComponent\ comp,\ StringBuilder\ strBuilder)\ {\n\ \ \ \ \ \ \ \ if\ (comp\ \!\=\ null\ &&\ comp.getBackground()\ \!\=\ null)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ strBuilder.append("background-color");\n\ \ \ \ \ \ \ \ \ \ \ \ createColorToHtml(comp.getBackground(),\ strBuilder);\n\ \ \ \ \ \ \ \ \ \ \ \ strBuilder.append(";\ ");\n\ \ \ \ \ \ \ \ }\n\ \ \ \ }\n\n\ \ \ \ public\ static\ void\ createFgColorToHtml(JWebComponent\ comp,\ StringBuilder\ strBuilder)\ {\n\ \ \ \ \ \ \ \ if\ (comp\ \!\=\ null\ &&\ comp.getForeground()\ \!\=\ null)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ strBuilder.append("color");\n\ \ \ \ \ \ \ \ \ \ \ \ createColorToHtml(comp.getForeground(),\ strBuilder);\n\ \ \ \ \ \ \ \ \ \ \ \ strBuilder.append(";\ ");\n\ \ \ \ \ \ \ \ }\n\ \ \ \ }\n
+comment6.params=r\ strBuilder
+comment6.target=void\ createBoundsToHtml(java.awt.Rectangle,\ java.lang.StringBuilder)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\ \ \ \ public\ static\ void\ createStyleFromComponent(JWebComponent\ comp,\ StringBuilder\ strBuilder)\ {\n\ \ \ \ \ \ \ \ strBuilder.append("position\:\ absolute;");\n\ \ \ \ \ \ \ \ createBgColorToHtml(comp,\ strBuilder);\n\ \ \ \ \ \ \ \ createFgColorToHtml(comp,\ strBuilder);\n\ \ \ \ \ \ \ \ createFontToHtml(comp.getFont(),\ strBuilder);\n\ \ \ \ \ \ \ \ createBoundsToHtml(comp.getBounds(),\ strBuilder);\n\ \ \ \ }\n
+numComments=8

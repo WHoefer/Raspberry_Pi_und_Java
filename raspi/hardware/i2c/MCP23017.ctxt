@@ -1,0 +1,43 @@
+#BlueJ class context
+comment0.params=dev
+comment0.target=MCP23017(com.pi4j.io.i2c.I2CDevice)
+comment1.params=port\ pin
+comment1.target=int\ setOutPort(int,\ int)
+comment10.params=port\ pin
+comment10.target=int\ setPinLow(int,\ int)
+comment11.params=port\ value\ pin
+comment11.target=int\ setPin(int,\ int,\ int)
+comment12.params=port\ pin
+comment12.target=int\ togglePin(int,\ int)
+comment13.params=port
+comment13.target=int\ getInterruptFlags(int)
+comment14.params=port
+comment14.target=int\ getCaptureFlags(int)
+comment15.params=val
+comment15.target=int\ setMirrorForIntAB(int)
+comment15.text=\n\ setMirrorIntAB\n\ mit\ val\ \ \=\ 1\ werden\ beide\ Interruptausg\u00E4nge\ f\u00FCr\ Port\ A\ und\ Port\ B\ gespiegelt.\n\ mit\ val\ \ \=\ 0\ bezieht\ sich\ INTA\ auf\ Port\ A\ und\ INTB\ auf\ Port\ B\n\ @param\ mirr\ A\ parameter\n\ @return\ The\ return\ value\n
+comment16.params=val
+comment16.target=int\ setOpenDrainForIntAB(int)
+comment16.text=\n\ Method\ setOpenDrainForIntAB\n\ mit\ val\ \=\ 1\ werden\ die\ Interruptausg\u00E4nge\ INTA/INTB\ \ als\ Open\ Drain\ Ausg\u00E4nge\ geschaltet.\n\ mit\ val\ \=\ 0\ werden\ die\ Interruptausg\u00E4nge\ INTA/INTB\ \ als\ aktive\ Ausg\u00E4nge\ mit\ Treiber\ geschaltet.\n\ @param\ val\ A\ parameter\n\ @return\ The\ return\ value\n
+comment17.params=val
+comment17.target=int\ setIntpolForIntAB(int)
+comment17.text=\n\ Method\ setIntpolForIntAB\n\ mit\ val\ \=\ 1\ werden\ die\ Interruptausg\u00E4nge\ INTA/INTB\ auf\ Active-high\ geschaltet.\n\ mit\ val\ \=\ 0\ werden\ die\ Interruptausg\u00E4nge\ INTA/INTB\ auf\ Active-low\ geschaltet.\n\n\ @param\ val\ A\ parameter\n\ @return\ The\ return\ value\n
+comment18.params=
+comment18.target=void\ print()
+comment2.params=port\ pin\ pullup
+comment2.target=int\ setInPort(int,\ int,\ int)
+comment3.params=port\ pin\ pullup
+comment3.target=int\ setInPortOnChangeInt(int,\ int,\ int)
+comment4.params=port\ pin\ pullup\ defval
+comment4.target=int\ setInPortDefValInt(int,\ int,\ int,\ int)
+comment5.params=port\ pin\ polarity
+comment5.target=int\ setInputPolarity(int,\ int,\ int)
+comment6.params=port\ pin
+comment6.target=int\ getInPort(int,\ int)
+comment7.params=port\ pin
+comment7.target=boolean\ isPinHigh(int,\ int)
+comment8.params=port\ pin
+comment8.target=boolean\ isPinLow(int,\ int)
+comment9.params=port\ pin
+comment9.target=int\ setPinHigh(int,\ int)
+numComments=19

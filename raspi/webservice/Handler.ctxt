@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=responseStr\ httpExchange
+comment0.target=void\ response(java.lang.StringBuilder,\ com.sun.net.httpserver.HttpExchange)
+comment1.params=httpExchange
+comment1.target=java.lang.StringBuilder\ getBody(com.sun.net.httpserver.HttpExchange)
+comment2.params=httpExchange
+comment2.target=boolean\ isGet(com.sun.net.httpserver.HttpExchange)
+comment3.params=httpExchange
+comment3.target=boolean\ isPost(com.sun.net.httpserver.HttpExchange)
+comment4.params=httpExchange
+comment4.target=boolean\ isPut(com.sun.net.httpserver.HttpExchange)
+comment5.params=httpExchange
+comment5.target=boolean\ isDelete(com.sun.net.httpserver.HttpExchange)
+numComments=6

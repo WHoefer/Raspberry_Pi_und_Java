@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=DiagramPoint(double,\ double)
+comment0.text=\r\n\ DiagramPoint\ Constructor\r\n\r\n\ @param\ x\ A\ parameter\r\n\ @param\ y\ A\ parameter\r\n
+comment1.params=
+comment1.target=double\ getX()
+comment2.params=
+comment2.target=double\ getY()
+numComments=3

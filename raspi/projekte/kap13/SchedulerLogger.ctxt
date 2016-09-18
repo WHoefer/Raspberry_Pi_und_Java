@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=loop\ sensor\ dataLogger\ info
+comment0.target=SchedulerLogger(long,\ Sensor,\ raspi.logger.DataLogger,\ java.lang.String)
+comment0.text=\n\ Konstruktor\ f\u00FCr\ die\ Klasse\ SchedulerLogger\n
+comment1.params=
+comment1.target=void\ executeActive()
+comment2.params=
+comment2.target=void\ executePassive()
+numComments=3

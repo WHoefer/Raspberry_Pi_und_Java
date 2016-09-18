@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=username\ password\ from\ to\ subject\ text\ debug
+comment0.target=void\ sendWebDeMimeMessageWithTLS(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ boolean)
+comment1.params=username\ password\ from\ to\ subject\ text\ files\ debug
+comment1.target=void\ sendWebDeMultipartMessageWithTLS(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String[],\ boolean)
+comment2.params=username\ password\ filter\ delete\ debug
+comment2.target=java.util.List\ getEMailsPop3TLS(java.lang.String,\ java.lang.String,\ java.lang.String,\ boolean,\ boolean)
+numComments=3

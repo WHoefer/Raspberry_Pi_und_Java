@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=loop\ port
+comment0.target=SchedulerPort(long,\ com.pi4j.io.gpio.GpioPinDigitalOutput)
+comment0.text=\n\ Konstruktor\ der\ Klasse\ SchedulerRelais\n
+comment1.params=
+comment1.target=void\ executeActive()
+comment2.params=
+comment2.target=void\ executePassive()
+comment3.params=
+comment3.target=void\ executeDisabled()
+numComments=4

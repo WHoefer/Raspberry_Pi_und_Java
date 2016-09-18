@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=urlStr
+comment0.target=HttpClient(java.lang.String)
+comment1.params=
+comment1.target=java.util.List\ getTag()
+comment2.params=
+comment2.target=java.util.List\ getJahrMax()
+comment3.params=
+comment3.target=java.util.List\ getJahrMin()
+comment4.params=befehl
+comment4.target=void\ executeCommand(java.lang.String)
+comment5.params=
+comment5.target=java.util.List\ getListDiagramDatePoint()
+comment6.params=befehl
+comment6.target=java.lang.StringBuilder\ request(java.lang.String)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

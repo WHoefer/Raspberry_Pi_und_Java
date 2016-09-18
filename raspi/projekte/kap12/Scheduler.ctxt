@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=loggerTag\ loggerJahr
+comment0.target=Scheduler(raspi.logger.DataLogger,\ raspi.logger.DataLogger)
+comment0.text=\n\ Konstruktor\ der\ Klasse\ Scheduler\n
+comment1.params=
+comment1.target=void\ run()
+numComments=2

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=loop\ sensor\ relais
+comment0.target=SchedulerTemperatur(long,\ Sensor,\ com.pi4j.io.gpio.GpioPinDigitalOutput)
+comment0.text=\n\ Konstruktor\ der\ Klasse\ SchedulerTemperatur\n
+comment1.params=tempTag\ tempNacht
+comment1.target=void\ setTagNacht(double,\ double)
+comment1.text=\n\ setTagNacht\ setzt\ die\ Temperaturen\ f\u00FCr\ den\ Tag-\ und\ den\ Nachtbetrieb.\n\ Die\ Parameter\ nehmen\ die\ Temperaturen\ in\ \u00B0C\ entgegen.\n\n\ @param\ tempTag\ Temperatur\ in\ \u00B0C\ im\ Tagbetrieb\n\ @param\ tempNacht\ Temperatur\ in\ \u00B0C\ im\ Nachtbetrieb\n
+comment2.params=
+comment2.target=double\ getTag()
+comment3.params=
+comment3.target=double\ getNacht()
+comment4.params=
+comment4.target=void\ executeActive()
+comment5.params=
+comment5.target=void\ executePassive()
+comment6.params=
+comment6.target=void\ executeDisabled()
+numComments=7

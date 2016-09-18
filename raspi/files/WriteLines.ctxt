@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=strPath\ strFile\ options
+comment0.target=WriteLines(java.lang.String,\ java.lang.String,\ java.nio.file.OpenOption)
+comment0.text=\n\ WriteLines\ Constructor<br>\n\ \n\ Objekt\ zum\ Beschreiben\ einer\ Datei.\ Bei\ jedem\ Beschreiben\ der\ Datei,\ wird\n\ automatisch\ ein\ Zeilenumbruch\ eingef\u00FCgt.\ F\u00FCr\ den\ \u00DCbergabeparameter\ OpenOption\n\ gelten\ die\ folgenden\ Regeln\:<br><br>\n\ \n\ StandardOpenOption.CREATE\ \ Neue\ Datei\ wird\ erzeugt.\ Wenn\ die\ Datei\ bereits\ besteht,\ wird\n\ der\ Inhalt\ vor\ dem\ beschreiben\ gel\u00F6scht.<br>\n\ StandardOpenOption.WRITE\ \ \ Datei\ muss\ existieren,\ der\ alte\ Inhalt\ wird\ aber\ vor\ dem\ \n\ Beschreiben\ verworfen.<br>\n\ StandardOpenOption.APPEND\ \ Datei\ muss\ existieren,\ der\ neue\ Inhalt\ wird\ angef\u00FCgt.<br>\n\n\ @param\ strPath\ Pfad\n\ @param\ strFile\ Dateiname\n\ @param\ options\ OpenOption\n
+comment1.params=line
+comment1.target=boolean\ writeLn(java.lang.String)
+comment1.text=\n\ Method\ writeLn<br>\n\ \n\ Die\ \u00FCbergebene\ Zeichenkette\ wird\ in\ die\ Datei\ geschrieben\ und\ ein\ Newline\ angef\u00FCgt.\n\ Bei\ erfolgreicher\ Ausf\u00FChrung\ wird\ true\ zur\u00FCckgegeben.\ Im\ Fehlerfall\ wird\ false\ \n\ zur\u00FCckgegeben.\n\n\ @param\ line\ Zeichenkette,\ die\ in\ die\ Datei\ geschrieben\ werden\ soll.\n\ @return\ boolean\ true/false\n
+comment2.params=
+comment2.target=boolean\ close()
+comment2.text=\n\ Method\ close<br>\n\ \n\ Ausgabe-Stream\ wird\ geschlossen.\ Bei\ erfolgreicher\ Ausf\u00FChrung\ wird\ true\ zur\u00FCckgegeben.\ \n\ Im\ Fehlerfall\ wird\ false\ zur\u00FCckgegeben.\n\ \n\ \n\ @return\ boolean\ true/false\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

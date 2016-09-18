@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=echo\ trigger
+comment0.target=double\ messen(com.pi4j.io.gpio.GpioPinDigitalInput,\ com.pi4j.io.gpio.GpioPinDigitalOutput)
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

@@ -1,0 +1,41 @@
+#BlueJ class context
+comment0.params=pathStr\ fileStr\ timeZone\ locale
+comment0.target=DataStore(java.lang.String,\ java.lang.String,\ java.util.TimeZone,\ java.util.Locale)
+comment0.text=\n\ DataLogger\ Constructor<br>\n\n\ @param\ pathStr\ Speicherpfad\ der\ Logdatei\n\ @param\ fileStr\ Name\ der\ Logdatei\n\ @param\ maxListLength\ Standardl\u00E4nge\ des\ Buffers\n\ @param\ timeZone\ Zeitzone\n\ @param\ locale\ Locale\n
+comment1.params=pathStr\ fileStr
+comment1.target=DataStore(java.lang.String,\ java.lang.String)
+comment1.text=\n\ DataLogger\ Constructor<br>\n\ Die\ \u00FCbergeben\ Parameter\ setzen\ Pfad\ und\ Dateiname\ der\ Logdatei\ und\ die\ Standardl\u00E4nge\ des\ Buffers.\n\ TimeZone\ \=\ Europe/Berlin\n\ Local\ \=\ Germany\n\n\ @param\ pathStr\ A\ parameter\n\ @param\ fileStr\ A\ parameter\n\ @param\ maxListLength\ A\ parameter\n
+comment10.params=
+comment10.target=java.util.List\ readSingleValueList()
+comment11.params=
+comment11.target=java.util.List\ readDiagramDatePointList()
+comment12.params=
+comment12.target=java.util.Map\ readDataMap()
+comment13.params=stringBuilder
+comment13.target=int\ store(java.lang.StringBuilder)
+comment14.params=
+comment14.target=int\ clearLogfile()
+comment14.text=\n\ Method\ clearLogfile<br>\n\ Die\ Datei\ wird\ geleert.\ Die\ Methode\ gibt\ 1\ zur\u00FCck,\ wenn\ die\ Aktion\n\ erfolgreich\ war.\ Bei\ einem\ Fehler\ wird\ -1\ zur\u00FCckgegeben.\n\ \n\ @return\ int\n
+comment15.params=stringBuilder
+comment15.target=int\ writeToFile(java.lang.StringBuilder)
+comment16.params=
+comment16.target=java.lang.StringBuilder\ readFromFile()
+comment2.params=
+comment2.target=DataStore()
+comment2.text=\n\ DataLogger\ Constructor<br>\n\ Setzt\ folgende\ Werte\:\n\ TimeZone\ \=\ Europe/Berlin\n\ Local\ \=\ Germany\n\ Logdatei\ \=\ DefaultLogger.txt\n\ Pfad\ \=\ USER-DIR\n\ Standardl\u00E4nge\ des\ Buffers\ \=\ 200\n\n
+comment3.params=pathStr\ fileStr
+comment3.target=void\ validateCreate(java.lang.String,\ java.lang.String)
+comment3.text=\n\ Method\ validateCreate<br>\n\ Die\ in\ den\ Konstruktoren\ \u00FCbergebenen\ Werte\ f\u00FCr\ den\ Pfad,\ den\ Dateiname\ und\ die\ Standardl\u00E4nge\ des\n\ Buffers\ werden\ validiert.\ Wird\ f\u00FCr\ die\ Pfadangabe\ pathStr\ kein\ Wert\ \u00FCbergeben,\ so\ wird\ die\n\ Logdatei\ im\ USER-DIR\ angelegt.\ Wird\ f\u00FCr\ den\ Dateinamen\ fileStr\ kein\ Wert\ angegeben,\ so\ wird\ die\ \n\ Logdatei\ DefaultLogger.txt\ genannt.\ Und\ wenn\ der\ Parameter\ maxListLength\ einen\ Wert\ kleiner\ oder\ \n\ gleich\ 0\ hat,\ wird\ dieser\ Wert\ auf\ 200\ gesetzt.\n\n\ @param\ pathStr\ Pfad\ der\ Logdatei\n\ @param\ fileStr\ Name\ der\ Logdatei\n\ @param\ maxListLength\ Standardl\u00E4nge\ des\ Buffers\n
+comment4.params=headerMap\ dataList
+comment4.target=int\ storeHeaderMapAndSingleValueList(java.util.Map,\ java.util.List)
+comment5.params=headerMap\ dataList
+comment5.target=int\ storeHeaderMapAndList(java.util.Map,\ java.util.List)
+comment6.params=headerMap\ dataList
+comment6.target=int\ storeHeaderMapAndDatePointList(java.util.Map,\ java.util.List)
+comment7.params=headerMap\ dataMap
+comment7.target=int\ storeHeaderMapAndMap(java.util.Map,\ java.util.Map)
+comment8.params=
+comment8.target=java.util.Map\ readHeader()
+comment9.params=
+comment9.target=java.util.List\ readList()
+numComments=17

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=props
+comment0.target=void\ sendMessageAlarmOn(java.util.Properties)
+comment1.params=props
+comment1.target=void\ sendMessageAlarmOff(java.util.Properties)
+comment2.params=props
+comment2.target=void\ sendMessage(java.util.Properties)
+comment3.params=props
+comment3.target=java.util.List\ getMessages(java.util.Properties)
+comment4.params=props\ loop
+comment4.target=boolean\ isAlarmOnOff(java.util.Properties,\ int)
+numComments=5

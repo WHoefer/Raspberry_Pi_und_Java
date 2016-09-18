@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=port\ host\ username\ password\ debug
+comment0.target=javax.mail.Session\ getTLSSession(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ boolean)
+comment0.text=\n\ getTLSSession\ erzeugt\ eine\ TLS-Session.\ \n\n\ @param\ port\ Port\n\ @param\ host\ Host\ des\ E-Mail\ Providers\n\ @param\ username\ Benutzername\ des\ E-Mail-Kontos\n\ @param\ password\ Kennwort\ des\ E-Mail-Kontos\n\ @param\ debug\ Debug\ ein-\ oder\ ausschalten\n\ @return\ The\ return\ value\n
+comment1.params=
+comment1.target=javax.mail.PasswordAuthentication\ getPasswordAuthentication()
+comment2.params=session\ from\ to\ subject\ text
+comment2.target=javax.mail.Message\ getMimeMessage(javax.mail.Session,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\n\ getMimeMessage\ erzeugt\ eine\ MimeMessage.\ \n\n\ @param\ session\ E-Mail\ Session\n\ @param\ from\ E-MAil-Adresse\ des\ Senders\n\ @param\ to\ E-Mail-Adresse\ des\ Empf\u00E4ngers\n\ @param\ subject\ Betreff\n\ @param\ text\ E-Mail-Text\n\ @return\ The\ return\ value\n
+comment3.params=session\ from\ to\ subject\ text\ files
+comment3.target=javax.mail.Message\ getMultipartMessage(javax.mail.Session,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String[])
+comment3.text=\n\ getMultipartMessage\ erzeugt\ eine\ MultiPart\ Session.\n\n\ @param\ session\ E-Mail\ Session\n\ @param\ from\ E-MAil-Adresse\ des\ Senders\n\ @param\ to\ E-Mail-Adresse\ des\ Empf\u00E4ngers\n\ @param\ subject\ Betreff\n\ @param\ text\ E-Mail-Text\n\ @param\ files\ Array\ mit\ den\ Pfaden\ der\ Dateianh\u00E4ngen\n\ @return\ The\ return\ value\n
+comment4.params=port\ host\ username\ password\ from\ to\ subject\ text\ debug
+comment4.target=void\ sendMimeMessageWithTLS(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ boolean)
+comment4.text=\n\ sendMimeMessageWithTLS\ sendet\ eine\ E-Mail\ ohne\ Dateianhang.\n\n\ @param\ port\ Portnummer\ des\ SMTP-Servers\n\ @param\ host\ SMTP-Server\n\ @param\ username\ Benutzername\n\ @param\ password\ Kennwort\n\ @param\ from\ Absender\n\ @param\ to\ Empf\u00E4nger\n\ @param\ subject\ Betreff\n\ @param\ text\ E-Mail-Text\n\ @param\ debug\ Setzt\ den\ Debug-Mode\n
+comment5.params=port\ host\ username\ password\ from\ to\ subject\ text\ files\ debug
+comment5.target=void\ sendMultipartMessageWithTLS(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String[],\ boolean)
+comment5.text=\n\ sendMultipartMessageWithTLS\ sendet\ eine\ E-Mail\ mit\ Dateianhang.\n\n\ @param\ port\ Portnummer\ des\ SMTP-Servers\n\ @param\ host\ SMTP-Server\n\ @param\ username\ Benutzername\n\ @param\ password\ Kennwort\n\ @param\ from\ Absender\n\ @param\ to\ Empf\u00E4nger\n\ @param\ subject\ Betreff\n\ @param\ text\ E-Mail-Text\n\ @param\ files\ Array\ mit\ Dateinamen\ und\ absolutem\ Pfad\n\ @param\ debug\ Setzt\ den\ Debug-Mode\n
+comment6.params=messages\ filter\ delte
+comment6.target=java.util.List\ getMailsFromMessages(javax.mail.Message[],\ java.lang.String,\ boolean)
+comment6.text=\n\ getMailsFromMessages\ gibt\ eien\ Liste\ mit\ EMail-Objekten\ zur\u00FCck.\ Die\ E-Mails\ werden\ aus\ dem\ \n\ Message-Array\ gelsen.\ Mit\ dem\ Parameter\ filter\ gibt\ man\ an,\ dass\ nur\ die\ E-Mails\ in\ die\ Liste\ \n\ aufganommen\ werden,\ deren\ Betreff\ mit\ filter\ \u00FCbereinstimmt\ beziehungsweise\ der\ Inhalt\ von\ filter\n\ im\ Betreff\ enthalten\ sein\ muss.\n\ Mit\ dem\ Parameter\ delete\ kann\ angegeben\ werden,\ dass\ die\ E-Mails,\ die\ durch\ den\ Filter\ gelesen\ wurden,\n\ zum\ l\u00F6schen\ auf\ dem\ SMTP-Server\ markiert\ werden.\n\n\ @param\ messages\ Array\ mit\ Message-Objekten\ aus\ dem\ dei\ E-Mails\ gelesen\ werden.\n\ @param\ filter\ Filter\ f\u00FCr\ den\ Betreff\ der\ E-Mails.\n\ @param\ delte\ A\ paramete\n\ @return\ The\ return\ value\n
+comment7.params=port\ host\ username\ password\ filter\ delete\ debug
+comment7.target=java.util.List\ getEMailsPop3TLS(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ boolean,\ boolean)
+comment7.text=\n\ getEMailsPop3TLS\ holt\ E-Mails\ von\ einem\ POP3-Server\ ab.\ Mit\ dem\ Parameter\ filter\ werden\ nur\ die\ EMails\ geholt,\ bei\ denen\n\ die\ Betreffzeile\ zum\ Filter\ passt.\ filter\ ist\ ein\ regul\u00E4rer\ Ausdruck.\n\n\ @param\ port\ Port\ des\ POP3-Servers\n\ @param\ host\ POP3-Server\n\ @param\ username\ Benutzername\n\ @param\ password\ Kennwort\n\ @param\ filter\ Filter\ f\u00FCr\ die\ zu\ holenden\ E-Mails\n\ @param\ delete\ Setzt\ das\ L\u00F6schen-Flag\ f\u00FCr\ die\ geholte\ E-Mail\n\ @param\ debug\ Mit\ treu\ wird\ der\ Debug-Modus\ eingeschaltet.\n\ @return\ Liste\ mit\ EMail-Objekten\n
+numComments=8

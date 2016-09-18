@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=obj
+comment0.target=ShutdownListener(java.lang.Object)
+comment1.params=event
+comment1.target=void\ handleGpioPinDigitalStateChangeEvent(com.pi4j.io.gpio.event.GpioPinDigitalStateChangeEvent)
+comment2.params=obj
+comment2.target=void\ setObject(java.lang.Object)
+comment3.params=obj
+comment3.target=void\ beforeShutdown(java.lang.Object)
+numComments=4

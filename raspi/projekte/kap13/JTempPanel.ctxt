@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=layout\ titel
+comment0.target=JTempPanel(java.awt.LayoutManager,\ java.lang.String)
+comment1.params=command
+comment1.target=void\ setTimeInterval(java.lang.String)
+comment2.params=days
+comment2.target=java.lang.String\ getCommandString(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getPanelText()
+comment4.params=
+comment4.target=boolean\ isValid()
+numComments=5

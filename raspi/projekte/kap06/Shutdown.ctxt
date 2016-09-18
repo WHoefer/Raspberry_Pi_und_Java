@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=obj
+comment0.target=Shutdown(java.lang.Object)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Shutdown\n
+comment1.params=obj
+comment1.target=void\ beforeShutdown(java.lang.Object)
+numComments=2

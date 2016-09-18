@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SensorTables()
+comment1.params=i\ node
+comment1.target=double\ getInterpolation(int,\ double)
+comment1.text=\r\n\ Method\ getInterpolation<br>\r\n\ Lineare\ interpolation\ zwischen\ zwei\ St\u00FCtzwerten.\r\n\r\n\ @param\ i\ Index\ aus\ der\ St\u00FCtzwertetabelle\r\n\ @param\ node\ St\u00FCtzstelle\r\n\ @return\ Interpolierter\ Wert.\r\n
+comment2.params=pnode
+comment2.target=double\ getValue(double)
+comment2.text=\r\n\ Method\ getValue<br>\r\n\ Gibt\ zum\ \u00FCbergebenen\ Wert\ die\ Zuordnung\ aus\ der\ Interpolatioonstabelle\ zur\u00FCck.\r\n\ Werte\ zwischen\ zwei\ St\u00FCzwerten,\ werden\ linear\ interpoliert.\r\n\ Die\ \u00FCbergebenen\ Werte\ m\u00FCssen\ >\=\ dem\ letzen\ St\u00FCtzwert\ aus\ interpolationValues\ \r\n\ sein\ und\ <\ erstem\ St\u00FCtzwert\ aus\ interpolationValues\ sein.\ Liegt\ der\ \r\n\ \u00FCbergebene\ Wert\ nicht\ in\ diesem\ Intervall,\ so\ wird\ immer\ der\ Wert\r\n\ 0\ zur\u00FCckgegeben.\r\n\r\n\ @param\ pnode\ St\u00FCtzstelle\r\n\ @return\ L\u00E4nge\ in\ cm\r\n
+comment3.params=
+comment3.target=void\ getInfo()
+comment3.text=\r\n\ Method\ getInfo<br>\r\n\r\n\ Gibt\ einen\ Informationstext\ \u00FCber\ das\ g\u00FCltige\ Werteintervall\ aus.\r\n
+comment4.params=node
+comment4.target=boolean\ isValidValue(double)
+comment4.text=\r\n\ Method\ isValidValue<br>\r\n\ Pr\u00FCft,\ ob\ der\ \u00FCbergebene\ Wert\ im\ g\u00FCltigen\ Intervall\ liegt.\r\n\ @param\ node\ \ Zu\ pr\u00FCfender\ Wert.\r\n\ @return\ True\ f\u00FCr\ einen\ g\u00FCltigen\ Wert\ und\ False\ f\u00FCr\ einen\ ung\u00FCltigen\ Wert.\r\n
+numComments=5

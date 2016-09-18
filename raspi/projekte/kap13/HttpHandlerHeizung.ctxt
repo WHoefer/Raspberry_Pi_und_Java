@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HttpHandlerHeizung()
+comment1.params=httpExchange
+comment1.target=void\ handle(com.sun.net.httpserver.HttpExchange)
+comment1.text=\n\ \ \n\ @param\ httpExchange\ Encapsulation\ of\ HTTP\ request\ and\ response.\n\ @throws\ java.io.IOException\n
+comment2.params=info\ responseStr
+comment2.target=void\ createErrorResponse(java.lang.String,\ java.lang.StringBuilder)
+comment3.params=responseStr
+comment3.target=void\ createScheduleResponse(java.lang.StringBuilder)
+numComments=4

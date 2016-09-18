@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=subject\ from\ text\ contentType\ description\ messageNumber\ receivedDate
+comment0.target=EMail(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.util.Date)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ EMail\n
+comment1.params=
+comment1.target=java.lang.String\ getSubject()
+comment2.params=
+comment2.target=java.lang.String\ getFrom()
+comment3.params=
+comment3.target=java.lang.String\ getText()
+comment4.params=
+comment4.target=java.lang.String\ getCcontentType()
+comment5.params=
+comment5.target=java.lang.String\ getDescription()
+comment6.params=
+comment6.target=int\ getMessageNumber()
+comment7.params=
+comment7.target=java.util.Date\ getReceivedDate()
+numComments=8

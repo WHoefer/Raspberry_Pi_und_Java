@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=dir\ name
+comment0.target=boolean\ accept(java.io.File,\ java.lang.String)
+numComments=1

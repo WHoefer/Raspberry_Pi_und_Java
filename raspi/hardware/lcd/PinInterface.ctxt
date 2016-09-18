@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=value
+comment0.target=void\ setDataLSB(int)
+comment1.params=value
+comment1.target=void\ setDataMSB(int)
+comment2.params=value
+comment2.target=void\ setData(int)
+comment3.params=
+comment3.target=void\ enableCommand()
+comment4.params=value
+comment4.target=void\ setRS(boolean)
+comment5.params=value
+comment5.target=void\ setEnable(boolean)
+comment6.params=
+comment6.target=void\ shutdown()
+comment7.params=
+comment7.target=boolean\ is8BitMode()
+comment8.params=
+comment8.target=boolean\ is5x10Mode()
+comment9.params=
+comment9.target=boolean\ isMultilineMode()
+numComments=10

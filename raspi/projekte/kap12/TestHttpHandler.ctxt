@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TestHttpHandler()
+comment1.params=httpExchange
+comment1.target=void\ handle(com.sun.net.httpserver.HttpExchange)
+numComments=2

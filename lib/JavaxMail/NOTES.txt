@@ -1,0 +1,568 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>NOTES.txt &mdash; Project Kenai</title>
+    <link href="https://asset-0.java.net/stylesheets/print_packaged.css?20150626.29986a4" media="print" rel="stylesheet" type="text/css" />
+    <script src="https://asset-3.java.net/javascripts/head_packaged.js?20150626.29986a4" type="text/javascript"></script>
+    <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">
+        stLight.options({
+            publisher:'bcd30425-1749-43d6-a311-18a82f89771a'
+        });
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+var page={"token":"TUjjzCOOWSv6Rs2AkjwNr9Q62WU29Ows6y8BfQ5qYKw="};
+//]]>
+</script>
+    <script type="text/javascript" charset="utf-8">
+      function debug(m){}
+    </script>
+    
+    <link href="https://java.net/theme/stylesheets/java_net.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://java.net/theme/stylesheets/layout.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://asset-0.java.net/stylesheets/additions.css?20150626.29986a4" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if IE]><style type="text/css" media="all">@import "https://java.net/theme/stylesheets/ie.css";</style><![endif]-->
+    <!--[if lte IE 6]><style type="text/css" media="all">@import "https://java.net/theme/stylesheets/ie6.css";</style><![endif]-->
+    <!--[if IE 7]><style type="text/css" media="all">@import "https://java.net/theme/stylesheets/ie7.css";</style><![endif]-->
+    <!--[if IE 8]><style type="text/css" media="all">@import "https://java.net/theme/stylesheets/ie8.css";</style><![endif]-->
+
+    <meta name="keywords" content="" />
+  </head>
+  <body class="front not-logged-in article-type-page one-sidebar">
+      <div id="container">
+      
+      <div id="skip-nav" class="element-invisible">
+        <!-- To adjust the display of the skip link see the Advanced theme settings
+        (General settings), and never use display:none! -->
+        <a href="#main-content">Skip to main content</a>
+      </div>
+      <div id="leaderboard">
+        <div id="block-block-31"  class="block">
+          <div class="block-inner">
+            <div class="content">
+                <a href="https://java.net/people/new">Create Account</a>
+  <span class="separator"></span>
+  <a href="https://java.net/people/login?original_uri=https%3A%2F%2Fjavamail.java.net%2Fdocs%2FNOTES.txt" rel="nofollow">Login</a>
+  <span class="separator"></span>
+  <a href="https://java.net/projects/help/pages/WebSite#WithNavigation" target="_blank">Help</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="header" class="clearfix">
+        <div id="branding">
+          <div class="logo-site-name">
+            <strong>
+              <span id="logo">
+                <a href="http://www.java.net/" rel="home" class="active">
+                  <img alt="java.net - Go to Homepage" border="0" class="logo-link" src="https://java.net/theme/images/logo.png" title="Java.net - Go to the Homepage" />
+                </a>
+              </span>
+            </strong>
+          </div>
+          <div id="site-slogan">The Source for Java Technology Collaboration</div>
+        </div>
+        <div id="search-box" class="hide-label">
+          <form action="http://www.java.net/search/node" method="post" id="search-theme-form">
+            <div id="search">
+              <input type="hidden" value="search_form" id="edit-search-form" name="form_id" />
+              <div style="margin-left: -10px;" class="checks">
+                <span><input type="checkbox" name="type[forum]" id="edit-forums" value="forum" /> Forums</span>
+                <span><input type="checkbox" name="type[blog]" id="edit-blogs" value="blog" /> Blogs</span>
+                <span><input type="checkbox" name="projects" id="edit-projects" value="project" /> Projects</span>
+                <span><input type="checkbox" name="people" id="edit-people" value="people" /> People</span>
+              </div>
+              <input type="text" class="form-text" id="edit-search-theme-form-1" value="Search All" size="15" onclick="this.value = ''" onblur="if (!this.value) this.value = ''" name="keys" />
+              <input type="submit" value="" name="op" title="Search" class="form-submit" alt="Search" />
+            </div>
+          </form>
+        </div>
+      </div>
+    <div id="primary" class="nav">
+      <div id="primary-inner">
+                <h2 class="element-invisible">Main Menu</h2>
+       <ul class="primary-links clearfix">
+          <li class=""><a href="http://www.java.net/" title="Return to the java.net homepage" class="active">Home</a></li>
+          <li class="active-trail"><a href="http://www.java.net/projects" title="View the projects hosted on java.net">Projects</a></li>
+          <li class=""><a href="http://www.java.net/forums" title="Participate in the java.net forums">Forums</a></li>
+          <li class=""><a href="https://java.net/people" title="View all the people involved with java.net">People</a></li>
+          <li class=""><a href="http://www.java.net/jugs/java-user-groups" title="Get involved in your local Java User Group (JUG)">Java User Groups</a></li>
+          <li class=""><a href="http://www.java.net/community/jcp" title="Get involved with the Java Community Process!">JCP</a></li>
+                  </ul>
+       </div>
+    </div>
+    <div id="columns">
+      <div class="columns-inner clearfix">
+        <div id="content-column">
+          <div class="content-inner">
+           <div id="navig-breadcrumbs">
+              <a href="https://java.net/">java.net</a><span>></span>  <a href="https://java.net/projects">projects</a> >
+  <a href="https://java.net/projects/javamail">javamail</a> >
+  <a href="https://java.net/projects/javamail/content" class="current">Website</a>
+
+            </div>
+            <div id="block-quicktabs-2"  class="block">
+              <div class="block-inner">
+                <div class="content">
+                  <!-- BEGIN CONTENT AREA -->
+                  
+                  
+
+
+
+
+<div class="contentPadding website">
+            <pre>
+      			     NOTES
+			     =====
+
+		    JavaMail(TM) API 1.5.4 release
+		    ------------------------------
+
+Welcome to the 1.5.4 release of the JavaMail API implementation. 
+
+Please refer to CHANGES.txt for a list of the changes since the 
+previous release.
+
+Please see the FAQ at http://www.oracle.com/technetwork/java/javamail/faq/
+
+Protocol Providers
+------------------
+
+The JavaMail API jar file "mail.jar" includes the full JavaMail API
+implementation and the Sun protocol providers - IMAP, SMTP, and
+POP3.  The simplest way to use the JavaMail API is to just use the
+mail.jar file and ignore the other jar files in this package.
+
+In some cases it may be desirable to minimize the size of the JavaMail
+API code used by an application (e.g., when downloading with an applet).
+In this case you might want to include the "mailapi.jar" file, which
+includes *no* protocol providers, along with just the jar file for the
+protocol provider you need.  For example, an applet that only needs to
+send mail could use the "mailapi.jar" file and the "smtp.jar" file.
+
+An important note when using the separate protocol provider jar files:
+
+-  You can't mix and match the Sun protocol providers between different
+   releases of the JavaMail API.  The Sun protocol providers depend on
+   implementation-specific utility APIs within the mailapi.jar file.
+   (Third party protocol providers that don't depend on these APIs
+   should work fine.)
+
+
+NOTE: The Sun protocol provider documentation is available in javadoc format,
+      see docs/javadocs/index.html in the directory where you extracted
+      the JavaMail API zip file.  This documentation describes how to
+      use features of the Sun protocol providers to directly access
+      some features of the SMTP, IMAP, and POP3 protocols that are
+      not otherwise supported by the standard JavaMail API.
+
+
+Gmail IMAP Provider
+-------------------
+
+This release includes an EXPERIMENTAL Gmail IMAP provider.
+Normal use of Gmail is handled by the standard "imap" protocol
+provider, but the new "gimap" protocol provider supports additional
+Gmail-specific non-standard features.  See the javadocs for the
+com.sun.mail.gimap package for details.  Note that the gimap.jar file
+needs to be added to your CLASSPATH to use this new provider.
+
+
+SASL Support
+------------
+
+On systems that support the Java SASL API (javax.security.sasl, JSR-28),
+such as J2SE 5.0 and later, the IMAP provider can use the SASL API to
+find an appropriate authentication mechanism.  The SASL API also allows
+you to plug in support for custom authentication mechanisms.  See The
+Java SASL API Programming and Deployment Guide at
+http://download.oracle.com/javase/6/docs/technotes/guides/security/sasl/sasl-refguide.html
+for details on developing custom SASL mechanisms.  See the javadocs for
+the com.sun.mail.imap package for the properties required to enable and
+configure SASL support.
+
+
+DSN Support
+-----------
+
+This release of JavaMail includes EXPERIMENTAL support for creating
+and parsing Delivery Status Notifications, as defined by RFC 3462
+and RFC 3464.  To make use of this support you need to include dsn.jar
+in your CLASSPATH along with mail.jar.  See the javadocs for the
+com.sun.mail.dsn package for more details.
+
+The DSN package also provides support for creating and parsing Message
+Disposition Notifications, as defined by RFC 3798.
+
+The APIs unique to this package should be considered EXPERIMENTAL.
+They may be changed in the future in ways that are incompatible with
+applications using the current APIs.
+
+
+NTLM Support
+------------
+
+This release of JavaMail includes EXPERIMENTAL support for the
+Microsoft NTLM authentication mechanism used by Exchange.  See the
+file NTLMNOTES.txt for details.
+
+
+OSGi Support
+------------
+
+The JavaMail jar files are now OSGi bundles.  Please let us know
+of any problems using JavaMail with OSGi.
+
+
+How to submit bug reports
+-------------------------
+
+If you've found a bug, or if you just need help figuring out how to use
+the JavaMail API, please try to include the following information in
+your message to us:
+
+    - a program or code snippet that shows the problem
+    - the platform you are using
+    - the mail server (vendor name, version number) you are using
+    - your environment variable settings
+    - a stack trace, if appropriate
+    - a protocol trace, after turning on session debugging, if appropriate
+
+Most of the problems reported to us fail to include enough of the above
+information to allow us to diagnose your problem.  It will save you and
+us time if you include this information in your first message to us.
+
+By far the most common problems we see are:
+
+Your problem:	Something doesn't work right when talking to my mail server.
+Our response:	Turn on session debugging and send us the protocol trace.
+		See the demo program documentation for how to turn on
+		session debugging for the demo programs.  In your own
+		program, call "session.setDebug(true);".
+
+Your problem:	javax.mail or javax.activation classes not found when compiling.
+Our response:	You didn't set CLASSPATH correctly to find mail.jar and
+		activation.jar.  See README.txt.
+
+Your problem:	NoSuchProviderException - No such provider for rfc822.
+Our response:	You unjar'ed mail.jar.  Don't.
+
+Your problem:	How do I create a message with an attachment?
+Our response:	Create a message with a MimeMultipart content.  See the
+		sendfile.html and msgmultisendsample.java demo programs.
+
+Please check the FAQ at http://www.oracle.com/technetwork/java/javamail/faq/
+before submitting bug reports.
+
+Send your bug reports to:
+
+	javamail_ww@oracle.com
+
+
+
+
+A list of the known limitations, bugs, issues:
+----------------------------------------------
+
+1. This version of JavaMail will only work in applets when using
+   the Java(TM) Plug-in
+   (http://www.oracle.com/technetwork/java/index-jsp-141438.html),
+   which is part of the current Java Runtime Environment (JRE)
+   available from Oracle at:
+   http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+2. Internationalization.  Parameter encoding in MIME headers, as
+   specified by RFC2231, *has* been implemented.  Note that
+   this covers only certain special cases not covered by the MIME
+   specification.  MIME specifies encoding of text in the Subject
+   and address headers, and JavaMail fully supports such encoding.
+   Some mailers don't support RFC2231.
+
+   To disable RFC2231 support in parameter lists, set the System
+   properties mail.mime.encodeparameters and mail.mime.decodeparameters
+   to "false".
+
+3. We've received reports of IMAP authentication failures on the
+   Microsoft Exchange Server 5.5, enterprise edition. This is due to
+   a bug in the Microsoft server and the "Service Pack 1 for Exchange 
+   Server 5.5" apparently fixes this server bug. The service pack can
+   be downloaded from the Microsoft website.
+
+4. Due to a problem in the Microsoft Exchange IMAP server, insufficient
+   number of bytes may be retrieved when reading big messages. There
+   are two ways to workaround this Exchange bug:
+
+   (a) The Exchange IMAP server provides a configuration option called
+       "fast message retrieval" to the UI.  Simply go to the site, server
+       or recipient, click on the "IMAP4" tab, and one of the check boxes
+       is "enable fast message retrieval".  Turn it off and the octet 
+       counts will be exact.  This is fully described at
+       http://support.microsoft.com/default.aspx?scid=kb;EN-US;Q191504
+
+   (b) Set the "mail.imap.partialfetch" property to false. You'll have 
+       to set this property in the Properties object that you provide to 
+       your Session.
+
+5. Certain IMAP servers do not implement the IMAP Partial FETCH 
+   functionality properly. This problem typically manifests as corrupt
+   email attachments when downloading large messages from the IMAP 
+   server. To workaround this server bug, set the 
+	"mail.imap.partialfetch" 
+   property to false. You'll have to set this property in the Properties
+   object that you provide to your Session.
+
+Servers tested with:
+--------------------
+
+  The IMAP implementation works with IMAP4 and IMAP4rev1 servers.
+  The current release has been tested with:
+	Oracle Beehive
+	Sun Java System Messaging Server version 7.0
+	UW IMAP4 server version 2003.339
+	Cyrus IMAP4 server version 1.6.19
+
+  Previous releases have been tested with:
+	Sun Java System Messaging Server version 5.2
+	Sun Java System Messaging Server version 6.3
+	Sun Internet Mail Server version 2.0, 3.2, and 4.0
+	Netscape Messaging Server version 3.01 and 4.1
+	Microsoft Exchange
+	Microsoft MCIS Mail Server
+	Lotus Notes
+	Software.com IMAP server
+	Qualcomm Worldmail
+
+  The current release of the SMTP implementation has been tested with:
+	Sendmail version 8.13.8
+	Oracle Beehive
+	Sun Java System Messaging Server version 7.0
+
+  Previous releases have been tested with:
+	Sendmail version 8.6 and 8.9.1
+	Sun Java System Messaging Server version 5.2
+	Sun Java System Messaging Server version 6.3
+	Sun Internet Mail Server version 3.2 and 4.0
+	Netscape Messaging Server version 3.01 and 4.1
+	Microsoft Exchange
+	Microsoft MCIS Mail Server
+	Qualcomm Worldmail
+
+How to give feedback
+--------------------
+
+Please send your feedback to this email-address:
+
+	javamail_ww@oracle.com
+
+Check out our website at https://javamail.java.net.
+
+You can also find help in the JavaMail forum:
+
+	https://community.oracle.com/community/java/java_enterprise_%26_remote_computing/javamail
+
+
+------------------------------------------------------------------
+
+      </pre>
+      </div>
+
+                  <!--END CONTENT AREA-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sidebar-first" class="sidebar">
+            <div class="vAccordion">      <div id="block-menu-menu-kenai-project-features" class="block">
+      <div class="block-inner">
+        <h2>Project Features</h2>
+        <div class="content" style="text-align: left; margin: 5px;">
+          <ul class="menu">
+                          
+              
+                <li class="leaf">
+                  <a href="https://java.net/projects/javamail/lists">Mailing Lists</a>
+                </li>
+                
+                            
+                          
+                            <li><a href="https://java.net/projects/javamail/downloads">Downloads</a></li>
+                          
+              
+                <li class="leaf">
+                  <a href="https://java.net/projects/javamail/forums">Message Forums</a>
+                </li>
+                
+                            <li style="margin-left: 12px"><a href="https://java.net/projects/javamail/forums/forum">General Discussion</a></li>
+                          
+              
+                <li class="leaf">
+                  <a href="https://java.net/projects/javamail/sources">Source Code Repositories</a>
+                </li>
+                
+                            <li style="margin-left: 12px"><a href="https://java.net/projects/javamail/sources/mercurial/show">Mercurial Source Code Repos...</a></li><li style="margin-left: 12px"><a href="https://java.net/projects/javamail/sources/website-repository/show">Website Repository</a></li>
+                          
+                            <li><a href="http://javamail.java.net/">Website</a></li>
+                          
+                            <li><a href="https://java.net/projects/javamail/pages/Home">Wiki</a></li>
+                          
+                            <li><a href="https://java.net/projects/javamail/pages/Home" target="_blank">WikiHomePage</a></li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+  
+  
+  <div id="block-menu-menu-kenai-project-features" class="block">
+    <div class="block-inner">
+      <h2>Project Links</h2>
+      <div class="content" style="text-align: left; margin: 5px;">
+        <ul class="menu">
+                      <li class="leaf">
+              <a href="http://www.oracle.com/technetwork/java/javamail/faq/index.html" target="_NEW">JavaMail FAQ</a>
+            </li>
+                      <li class="leaf">
+              <a href="http://javamail.java.net/nonav/docs/api" target="_NEW">API documentation</a>
+            </li>
+                      <li class="leaf">
+              <a href="http://www.oracle.com/technetwork/java/javamail/index.html" target="_NEW">JavaMail API Home Page</a>
+            </li>
+                      <li class="leaf">
+              <a href="http://kenai.com/bugzilla/buglist.cgi?product=javamail&amp;order=Importance&amp;limit=25" target="">JavaMail Issue Tracker</a>
+            </li>
+                  </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="block-menu-menu-kenai-project-about" class="block">
+    <div class="block-inner">
+      <h2>About this Project</h2>
+      <div class="content" style="text-align: left; margin: 5px;">
+        <a href="https://java.net/projects/javamail">JavaMail API Reference Implementation</a>
+                was started in March 2011
+        and has <a href="https://java.net/projects/javamail/members">75 members</a>.
+        The project administrators are
+        <a href="https://java.net/people/626-Bill-Shannon"><span class="person -kenai-shannon">Bill Shannon</span></a>, <a href="https://java.net/people/899517-bill-shannon"><span class="person -kenai-bill.shannon">bill.shannon</span></a>, <a href="https://java.net/people/102776-Ed-Bratt"><span class="person -kenai-ebratt">Ed Bratt</span></a>, <a href="https://java.net/people/912691-bs11"><span class="person -kenai-bs11">bs11</span></a>, and <a href="https://java.net/people/352995-Frank-Nikola"><span class="person -kenai-fnikola">Frank Nikola</span></a>.
+        <br />
+        <ul class="menu">
+                                    <li class="leaf">
+                <a href="https://java.net/projects/javamail/watch">Join This Project</a>
+              </li>
+                              </ul>
+              </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    <div id="tertiary-content">
+      <div id="block-menu-menu-footer-menu"  class="block">
+        <div class="block-inner">
+          <div class="content">
+            <ul class="menu">
+              <li class="leaf first">
+                <a href="http://www.java.net/contact" title="">Feedback</a>
+              </li>
+              <li class="leaf">
+                <a href="http://www.java.net/javanet-faq" title="">FAQ</a>
+              </li>
+              <li class="leaf">
+                <a href="http://www.java.net/javanet-web-site-terms-use" title="">Terms of Use</a>
+              </li>
+              <li class="leaf">
+                <a href="http://www.oracle.com/us/legal/privacy/index.html" title="">Privacy</a>
+              </li>
+              <li class="leaf last">
+                <a href="http://www.oracle.com/us/legal/third-party-trademarks/index.html" title="">Trademarks</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="footer-region">
+        <div class="block">
+          <div class="block-inner">
+            <div class="content">
+              <div style="width: 59%; float: left;">
+                <p>
+                  Your use of this web site or any of its content or software indicates
+                  your agreement to be bound by these
+                  <a href="http://www.java.net/javanet-web-site-terms-use">Terms of Participation</a>.
+                </p>
+                <p>
+                  Copyright © 2014, Oracle Corporation and/or its affiliates. All rights reserved.
+                  Oracle and Java are registered trademarks of Oracle and/or its affiliates.
+                  Other names may be trademarks of their respective owners.
+                </p>
+                <p>(<a href="https://java.net/projects/help/pages/ReleaseNotes">revision 20150626.29986a4</a>)</p>
+              </div>
+              <div style="width: 310px; float: right; text-align: right; margin-right: 10px">
+                <div style="float: right;">
+                  <a href="http://www.oracle.com" title="Oracle"><img alt="" src="https://java.net/theme/images/oracle.png" /></a>
+                  <a href="http://kenai.com" title="Kenai.com"><img alt="" src="https://java.net/theme/images/kenai.png" /></a>
+                  <a href="http://www.cognisync.com" title="Cognisync"><img alt="" src="https://java.net/theme/images/cognisync.png" /></a>
+                  <br />
+                  <div class="powered-by">
+                    Powered by Oracle, Project Kenai and Cognisync
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+        <!-- popups that are anchored to specific elements -->
+    <div class="popupMenuShadow" id="contextMenuShadow"></div>
+    <div class="popupMenuContainer" id="contextMenu">
+      <div class="popupMenu inline">	
+        <div class="upArrow"></div>
+        <div class="header"></div>
+        <div class="contextMenuBody" id="contextMenuBody">&nbsp;</div>
+      </div>
+    </div> 
+    
+    <!-- large content loaded via ajax. Faded but not modal. -->
+    <div class="jqmWindow" id="jqm_large_overlay">
+      <div class="jqmHeader">
+        <div class="jqmTitle">&nbsp;</div>
+        <img alt="Close" class="jqmClose" src="https://asset-2.java.net/images/close.gif?20150626.29986a4" />
+      </div>
+      <div class="jqmTarget">
+        <img alt="loading" src="https://asset-3.java.net/images/activity.gif?20150626.29986a4" />
+      </div>
+      <div class="jqmFooter">
+      	<div class="jqmClose functionButtonContainer"><button class="functionButton" title="Done"> Done </button></div>
+      </div>
+    </div>
+    
+    <!-- confirmation dialogs with buttons. Faded and modal. -->
+    <div class="jqmWindow" id="jqm_dialog">
+      <div class="jqmHeader">
+        <div class="jqmTitle">Please Confirm</div>
+        <img alt="Close" class="jqmClose" src="https://asset-2.java.net/images/close.gif?20150626.29986a4" />
+      </div>
+      <div class="jqmTarget">&nbsp;</div>
+      <div class="jqmFooter">
+      	<div class="jqmClose functionButtonContainer"><button class="functionButton" id="jq_no_button" title="No" onclick="Modal.no()"> No </button></div>
+      	<div class="jqmClose functionButtonContainer"><button class="functionButton" id="jq_yes_button" title="Yes" onclick="Modal.yes();"> Yes </button></div>
+      </div>
+    </div>    
+
+    <div id="jq-ui-autocomplete-parent"></div>
+    
+  </body>
+  <script src="https://asset-3.java.net/javascripts/body_packaged.js?20150626.29986a4" type="text/javascript"></script>
+  <script src="https://java.net/theme/javascript/java_custom.js" type="text/javascript"></script>
+  
+</html>

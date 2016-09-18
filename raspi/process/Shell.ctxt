@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=command
+comment0.target=boolean\ executeAndWaitFor(java.lang.String)
+comment0.text=\n\ Method\ executeAndWaitFor<br>\n\ \n\ Das\ \u00FCbergebene\ Kommando\ wird\ als\ externer\ Prozess\ ausgef\u00FChrt\ und\ \n\ gewartet\ bis\ dieser\ beendet\ ist.\ Es\ wird\ true\ zur\u00FCckgegeben,\ wenn\ \n\ der\ Prozess\ erfolgreich\ ausgef\u00FChrt\ werden\ konnte.\ Im\ \n\ Fehlerfall\ wird\ false\ zur\u00FCckgegeben;\n\n\ @param\ command\ Kommando,\ das\ als\ externer\ Prozess\ ausgef\u00FChrt\ werden\ soll.\n\ @return\ true\ oder\ false\n
+comment1.params=command
+comment1.target=boolean\ execute(java.lang.String)
+comment1.text=\n\ Method\ execute<br>\n\ \n\ Das\ \u00FCbergebene\ Kommando\ wird\ als\ externer\ Prozess\ ausgef\u00FChrt.\ Es\ wird\ true\ \n\ zur\u00FCckgegeben,\ wenn\ der\ Prozess\ erfolgreich\ ausgef\u00FChrt\ werden\ konnte.\ Im\ \n\ Fehlerfall\ wird\ false\ zur\u00FCckgegeben;\n\n\ @param\ command\ Kommando,\ das\ als\ externer\ Prozess\ ausgef\u00FChrt\ werden\ soll.\n\ @return\ true\ oder\ false\n
+comment2.params=command
+comment2.target=java.lang.String\ executeWithResponse(java.lang.String)
+comment2.text=\n\ Method\ executeWithResponse<br>\n\n\ Das\ \u00FCbergebene\ Kommando\ wird\ als\ externer\ Prozess\ ausgef\u00FChrt.\ Es\ wird\ die\ \n\ Systemantwort\ als\ Zeichenkette\ zur\u00FCckgegeben.\ Im\ Fehlerfall\ wird\ null\ \n\ zur\u00FCckgegeben;\n\n\ @param\ command\ Kommando,\ das\ als\ externer\ Prozess\ ausgef\u00FChrt\ werden\ soll.\n\ @return\ Die\ Systemantwort\ oder\ null\ im\ Fehlerfall.\n
+numComments=3

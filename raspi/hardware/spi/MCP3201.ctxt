@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=cs\ clock
+comment0.target=MCP3201(int,\ int)
+comment0.text=\n\ MCP3201\ Constructor\n\n\ @param\ cs\ Chip\ Select\ kann\ 0\ oder\ 1\ sein\n\ @param\ clock\ Busfrequenz\ in\ Hz\n
+comment1.params=
+comment1.target=int\ readChannel()
+comment1.text=\n\ Method\ readChannel<br>\n\ \n\ Liest\ den\ gewandelten\ Wert.\n\n\ @return\ Gewandelte\ Wert\n
+comment2.params=
+comment2.target=double\ readChannelInVolt()
+numComments=3

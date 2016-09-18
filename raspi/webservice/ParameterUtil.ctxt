@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=httpExchange
+comment0.target=java.util.Map\ getParameters(com.sun.net.httpserver.HttpExchange)
+comment0.text=\r\n\ getParameters\ liefert\ eine\ Map\ mit\ Parametern\ zur\u00FCck.\r\n\r\n\ @param\ httpExchange\ A\ parameter\r\n\ @return\ The\ return\ value\r\n
+comment1.params=parameters
+comment1.target=void\ creatOutParameters(java.util.Map)
+comment1.text=\r\n\ creatOutParameters\ schreibt\ die\ gefundenen\ Parameter\ auf\ die\ Konsole.\r\n\r\n\ @param\ parameters\ A\ parameter\r\n
+comment2.params=httpExchange
+comment2.target=void\ viewParameters(com.sun.net.httpserver.HttpExchange)
+comment2.text=\r\n\ viewParameters\ schreibt\ die\ gefundenen\ Parameter\ auf\ die\ Konsole.\r\n\r\n\ @param\ httpExchange\ A\ parameter\r\n
+comment3.params=parameters
+comment3.target=void\ viewParameters(java.util.Map)
+comment3.text=\r\n\ viewParameters\ schreibt\ die\ gefundenen\ Parameter\ auf\ die\ Konsole.\r\n\r\n\r\n\ @param\ parameters\ A\ parameter\r\n
+comment4.params=exchange\ parameters
+comment4.target=void\ parseGetParameters(com.sun.net.httpserver.HttpExchange,\ java.util.Map)
+comment4.text=\r\n\ parseGetParameters\ liest\ die\ Parameter\ aus\ der\ URI.\r\n\r\n\ @param\ exchange\ A\ parameter\r\n\ @param\ parameters\ A\ parameter\r\n
+comment5.params=exchange\ parameters
+comment5.target=void\ parsePostParameters(com.sun.net.httpserver.HttpExchange,\ java.util.Map)
+comment5.text=\r\n\ parsePostParameters\ liest\ die\ Parameter\ aus\ dem\ HTTP-Body\r\n\r\n\ @param\ exchange\ A\ parameter\r\n\ @param\ parameters\ A\ parameter\r\n
+comment6.params=query\ parameters
+comment6.target=void\ parseQuery(java.lang.String,\ java.util.Map)
+comment6.text=\r\n\ parseQuery\ liest\ die\ Parameter\ aus\ einer\ Query.\r\n\r\n\ @param\ query\ A\ parameter\r\n\ @param\ parameters\ A\ parameter\r\n
+numComments=7

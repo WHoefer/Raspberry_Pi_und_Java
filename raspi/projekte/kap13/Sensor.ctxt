@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Sensor()
+comment0.text=\n\ Konstruktor\ der\ Klasse\ Sensor\n
+comment1.params=
+comment1.target=double\ getTemperatur()
+comment1.text=\n\ getTemperatur\ liefert\ die\ aktuelle\ Temperatur\ in\ \u00B0C.\n\n\ @return\ Temperatur\ in\ \u00B0C\n
+comment2.params=
+comment2.target=void\ readTemperatur()
+comment2.text=\n\ readTemperatur\ fragt\ den\ ADC\ ab\ und\ berechnet\ die\ \n\ Temperatur\ in\ \u00B0C.\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

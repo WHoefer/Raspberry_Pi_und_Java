@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=urlStr
+comment0.target=HttpClient(java.lang.String)
+comment1.params=
+comment1.target=java.util.List\ getListStrings()
+comment2.params=
+comment2.target=java.util.Map\ getHeaderMap()
+comment3.params=port
+comment3.target=void\ executeGetSchedule(java.lang.String)
+comment4.params=port\ datalist
+comment4.target=void\ executePostSchedule(java.lang.String,\ java.util.List)
+numComments=5

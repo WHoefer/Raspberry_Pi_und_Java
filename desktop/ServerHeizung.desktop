@@ -1,0 +1,12 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=ServerHeizung
+Comment=A simple powerful Java IDE
+Categories=Application;Development;
+Exec=lxterminal -t "Server der Heizungssteuerung" --working-directory=/home/pi/JavaProgramme/Projekte/Raspberry_Pi_und_Java/ -e sudo java -cp .:classes:/opt/pi4j/lib/'*' raspi.projekte.kap13.RaspiHttpServer
+Icon=bluej
+Terminal=false
+Type=Application
+

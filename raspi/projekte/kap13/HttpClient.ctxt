@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=urlStr
+comment0.target=HttpClient(java.lang.String)
+comment1.params=
+comment1.target=void\ executeGetLogTag()
+comment2.params=
+comment2.target=void\ executeGetSchedule()
+comment3.params=
+comment3.target=java.util.List\ getDiagramDatePoints()
+comment4.params=
+comment4.target=java.util.List\ getListStrings()
+comment5.params=
+comment5.target=java.util.Map\ getHeaderMap()
+comment6.params=tempTag\ tempNacht\ datalist
+comment6.target=void\ executePostSchedule(java.lang.Double,\ java.lang.Double,\ java.util.List)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

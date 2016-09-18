@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=field
+comment0.target=boolean\ validateShortTime(javax.swing.JTextField)
+comment0.text=\n\ Validiert\ die\ Zeitangabe\ aus\ dem\ JTextField\ und\ entfernt\ WhiteSpaces.\n\ Der\ Inhalt\ des\ Textfeldes\ muss\ f\u00FCr\ eine\ positive\ R\u00FCckmeldung\ das\ \n\ folgende\ Format\ haben\:\ HH\:mm\n\n\ @param\ field\ JTextField\ mit\ Zeitangabe.\n\ @return\ true\ wenn\ Validierung\ erfolgreich,\ sonst\ false.\n
+comment1.params=field
+comment1.target=boolean\ validateTime(javax.swing.JTextField)
+comment1.text=\n\ Validiert\ die\ Zeitangabe\ aus\ dem\ JTextField\ und\ entfernt\ WhiteSpaces.\n\ Der\ Inhalt\ des\ Textfeldes\ muss\ f\u00FCr\ eine\ positive\ R\u00FCckmeldung\ das\ \n\ folgende\ Format\ haben\:\ HH\:mm\:ss\n\n\ @param\ field\ JTextField\ mit\ Zeitangabe.\n\ @return\ true\ wenn\ Validierung\ erfolgreich,\ sonst\ false.\n
+comment2.params=from\ to
+comment2.target=boolean\ validateShortTimeInterval(javax.swing.JTextField,\ javax.swing.JTextField)
+comment2.text=\n\ Validiert\ ein\ Zeitintervall\ und\ entfernt\ WhiteSpaces.\n\ Der\ Inhalt\ der\ Textfelder\ muss\ f\u00FCr\ eine\ positive\ R\u00FCckmeldung\ das\ \n\ folgende\ Format\ haben\:\ HH\:mm\ \n\ Au\u00DFerdem\ muss\ die\ erst\ Zeitangabe\ vor\ der\ zweiten\ Zeitangabe\ liegen.\n\n\ @param\ from\ JTextField\ mit\ Zeitangabe.\n\ @param\ to\ JTextField\ mit\ Zeitangabe.\n\ @return\ true\ wenn\ Validierung\ erfolgreich,\ sonst\ false.\n
+comment3.params=from\ to
+comment3.target=boolean\ validateTimeInterval(javax.swing.JTextField,\ javax.swing.JTextField)
+comment3.text=\n\ Validiert\ ein\ Zeitintervall\ und\ entfernt\ WhiteSpaces.\n\ Der\ Inhalt\ der\ Textfelder\ muss\ f\u00FCr\ eine\ positive\ R\u00FCckmeldung\ das\ \n\ folgende\ Format\ haben\:\ HH\:mm\:ss\ \n\ Au\u00DFerdem\ muss\ die\ erst\ Zeitangabe\ vor\ der\ zweiten\ Zeitangabe\ liegen.\n\n\ @param\ from\ JTextField\ mit\ Zeitangabe.\n\ @param\ to\ JTextField\ mit\ Zeitangabe.\n\ @return\ true\ wenn\ Validierung\ erfolgreich,\ sonst\ false.\n
+comment4.params=from\ to\ sdf
+comment4.target=boolean\ validateRegExInterval(javax.swing.JTextField,\ javax.swing.JTextField,\ java.text.SimpleDateFormat)
+comment4.text=\n\ Validiert\ ein\ Zeitintervall\ und\ entfernt\ WhiteSpaces.\n\ Das\ Format\ der\ Textfelder\ wird\ durch\ den\ Parameter\ sdf\ vorgegeben.\ \n\ Au\u00DFerdem\ muss\ die\ erst\ Zeitangabe\ vor\ der\ zweiten\ Zeitangabe\ liegen.\n\n\ @param\ from\ JTextField\ mit\ Zeitangabe.\n\ @param\ to\ JTextField\ mit\ Zeitangabe.\n\ @param\ sdf\ SimpleDateFormat\ zur\ Validierung.\n\ @return\ true\ wenn\ Validierung\ erfolgreich,\ sonst\ false.\n
+comment5.params=regEx\ field
+comment5.target=boolean\ validateRegEx(java.lang.String,\ javax.swing.JTextField)
+comment5.text=\n\ Method\ validateRegEx\n\n\ @param\ regEx\ A\ parameter\n\ @param\ field\ A\ parameter\n\ @return\ The\ return\ value\n
+numComments=6

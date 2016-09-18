@@ -1,0 +1,629 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>SSLNOTES.txt &mdash; Project Kenai</title>
+    <link href="https://asset-2.java.net/stylesheets/print_packaged.css?20150626.29986a4" media="print" rel="stylesheet" type="text/css" />
+    <script src="https://asset-0.java.net/javascripts/head_packaged.js?20150626.29986a4" type="text/javascript"></script>
+    <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">
+        stLight.options({
+            publisher:'bcd30425-1749-43d6-a311-18a82f89771a'
+        });
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+var page={"token":"TUjjzCOOWSv6Rs2AkjwNr9Q62WU29Ows6y8BfQ5qYKw="};
+//]]>
+</script>
+    <script type="text/javascript" charset="utf-8">
+      function debug(m){}
+    </script>
+    
+    <link href="https://java.net/theme/stylesheets/java_net.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://java.net/theme/stylesheets/layout.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://asset-3.java.net/stylesheets/additions.css?20150626.29986a4" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if IE]><style type="text/css" media="all">@import "https://java.net/theme/stylesheets/ie.css";</style><![endif]-->
+    <!--[if lte IE 6]><style type="text/css" media="all">@import "https://java.net/theme/stylesheets/ie6.css";</style><![endif]-->
+    <!--[if IE 7]><style type="text/css" media="all">@import "https://java.net/theme/stylesheets/ie7.css";</style><![endif]-->
+    <!--[if IE 8]><style type="text/css" media="all">@import "https://java.net/theme/stylesheets/ie8.css";</style><![endif]-->
+
+    <meta name="keywords" content="" />
+  </head>
+  <body class="front not-logged-in article-type-page one-sidebar">
+      <div id="container">
+      
+      <div id="skip-nav" class="element-invisible">
+        <!-- To adjust the display of the skip link see the Advanced theme settings
+        (General settings), and never use display:none! -->
+        <a href="#main-content">Skip to main content</a>
+      </div>
+      <div id="leaderboard">
+        <div id="block-block-31"  class="block">
+          <div class="block-inner">
+            <div class="content">
+                <a href="https://java.net/people/new">Create Account</a>
+  <span class="separator"></span>
+  <a href="https://java.net/people/login?original_uri=https%3A%2F%2Fjavamail.java.net%2Fdocs%2FSSLNOTES.txt" rel="nofollow">Login</a>
+  <span class="separator"></span>
+  <a href="https://java.net/projects/help/pages/WebSite#WithNavigation" target="_blank">Help</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="header" class="clearfix">
+        <div id="branding">
+          <div class="logo-site-name">
+            <strong>
+              <span id="logo">
+                <a href="http://www.java.net/" rel="home" class="active">
+                  <img alt="java.net - Go to Homepage" border="0" class="logo-link" src="https://java.net/theme/images/logo.png" title="Java.net - Go to the Homepage" />
+                </a>
+              </span>
+            </strong>
+          </div>
+          <div id="site-slogan">The Source for Java Technology Collaboration</div>
+        </div>
+        <div id="search-box" class="hide-label">
+          <form action="http://www.java.net/search/node" method="post" id="search-theme-form">
+            <div id="search">
+              <input type="hidden" value="search_form" id="edit-search-form" name="form_id" />
+              <div style="margin-left: -10px;" class="checks">
+                <span><input type="checkbox" name="type[forum]" id="edit-forums" value="forum" /> Forums</span>
+                <span><input type="checkbox" name="type[blog]" id="edit-blogs" value="blog" /> Blogs</span>
+                <span><input type="checkbox" name="projects" id="edit-projects" value="project" /> Projects</span>
+                <span><input type="checkbox" name="people" id="edit-people" value="people" /> People</span>
+              </div>
+              <input type="text" class="form-text" id="edit-search-theme-form-1" value="Search All" size="15" onclick="this.value = ''" onblur="if (!this.value) this.value = ''" name="keys" />
+              <input type="submit" value="" name="op" title="Search" class="form-submit" alt="Search" />
+            </div>
+          </form>
+        </div>
+      </div>
+    <div id="primary" class="nav">
+      <div id="primary-inner">
+                <h2 class="element-invisible">Main Menu</h2>
+       <ul class="primary-links clearfix">
+          <li class=""><a href="http://www.java.net/" title="Return to the java.net homepage" class="active">Home</a></li>
+          <li class="active-trail"><a href="http://www.java.net/projects" title="View the projects hosted on java.net">Projects</a></li>
+          <li class=""><a href="http://www.java.net/forums" title="Participate in the java.net forums">Forums</a></li>
+          <li class=""><a href="https://java.net/people" title="View all the people involved with java.net">People</a></li>
+          <li class=""><a href="http://www.java.net/jugs/java-user-groups" title="Get involved in your local Java User Group (JUG)">Java User Groups</a></li>
+          <li class=""><a href="http://www.java.net/community/jcp" title="Get involved with the Java Community Process!">JCP</a></li>
+                  </ul>
+       </div>
+    </div>
+    <div id="columns">
+      <div class="columns-inner clearfix">
+        <div id="content-column">
+          <div class="content-inner">
+           <div id="navig-breadcrumbs">
+              <a href="https://java.net/">java.net</a><span>></span>  <a href="https://java.net/projects">projects</a> >
+  <a href="https://java.net/projects/javamail">javamail</a> >
+  <a href="https://java.net/projects/javamail/content" class="current">Website</a>
+
+            </div>
+            <div id="block-quicktabs-2"  class="block">
+              <div class="block-inner">
+                <div class="content">
+                  <!-- BEGIN CONTENT AREA -->
+                  
+                  
+
+
+
+
+<div class="contentPadding website">
+            <pre>
+      		Notes for use of SSL with JavaMail
+		----------------------------------
+
+JavaMail now supports accessing mail servers over connections secured
+using SSL or TLS.  To simplify such access, there are two alternative
+approaches to enable use of SSL.
+
+First, and perhaps the simplest, is to set a property to enable use
+of SSL.  For example, to enable use of SSL for SMTP connections, set
+the property "mail.smtp.ssl.enable" to "true".
+
+Alternatively, you can configure JavaMail to use one of the SSL-enabled
+protocol names.  In addition to the non-SSL JavaMail protocols "imap",
+"pop3", and "smtp", the protocols "imaps", "pop3s", and "smtps" can
+be used to connect to the corresponding services using an SSL
+connection.
+
+In addition, the "imap" and "smtp" protocols support use of the
+STARTTLS command (see RFC 2487 and RFC 3501) to switch the connection
+to be secured by TLS.
+
+Use of the STARTTLS command is preferred in cases where the server
+supports both SSL and non-SSL connections.
+
+This SSL/TLS support in JavaMail works only when JavaMail is used on
+a version of J2SE that includes SSL support.  We have tested this
+support on J2SE 1.4 and newer, which include SSL support.  The
+SSL support is provided by the JSSE package, which is also available
+for earlier versions of J2SE.  We have not tested such configurations.
+
+-- STARTTLS support
+
+The STARTTLS support is available in the standard "imap" and "smtp"
+protocols, but must be enabled by setting the appropriate property,
+mail.imap.starttls.enable or mail.smtp.starttls.enable, to "true".
+When set, if the server supports the STARTTLS command, it will be
+used after making the connection and before sending any login
+information.
+
+
+-- Secure protocols
+
+When using the new protocol names, configuration properties must also use
+these protocol names.  For instance, set the property "mail.smtps.host"
+to specify the host name of the machine to connect to when using the
+"smtps" protocol for SMTP over SSL.  Similarly, to set the IMAP protocol
+timeout when using the "imaps" protocol for IMAP over SSL, set the property
+"mail.imaps.timeout".  See the package documentation for the different
+protocol packages for the list of available properties, which are
+always set using property names of the form mail.<protocol>.<property>.
+
+The Transport.send method will use the default transport protocol,
+which remains "smtp".  To enable SMTP connections over SSL, set the
+"mail.smtp.ssl.enable" property to "true".  This is usually the easiest
+approach.
+
+Alternatively, to change the default transport protocol 
+returned by the Session.getTransport() method to SMTP over SSL, set
+the property "mail.transport.protocol" to "smtps".  To change the
+transport used for internet addresses (as returned by the
+Session.getTransport(Address) method, and used by the Transport.send
+method), use
+
+	session.setProtocolForAddress("rfc822", "smtps");
+
+
+-- Trusted Certificates
+
+To establish an SSL/TLS connection, the JavaMail client must be able
+to verify that the security certificate presented by the server
+it is connecting to is "trusted" by the client.  Trusted certificates
+are maintained in a Java keystore file on the client.  The J2SE
+SDK "keytool" command is used to maintain the keystore file.
+
+There are two common approaches for verifying server certificates.
+The first approach is probably most common for servers accessible to
+partners outside a company.  The second approach is probably most
+common for servers used within a company.
+
+1. Server certificates may be signed be a well known public
+   Certificate Authority.  The default Java keystore file contains
+   the public keys of well known Certificate Authorities and can
+   verify the server's certificate by following the chain of
+   certificates signing the server's certificate back to one of
+   these well known CA certificates.
+
+   In this case the client doesn't need to manage certificates
+   explicitly but can just use the default keystore file.
+
+2. Server certificates may be "self-signed".  In this case there is
+   no chain of signatures to use in verifying the server's certificate.
+   Instead, the client will need the server's certificate in the
+   client's keystore file.  The server's certificate is imported into
+   the keystore file once, using the keytool command, and after that
+   is used to verify connections to the server.  A single keystore file
+   may contain certificates of many servers.
+
+   In this case the client will need to set the appropriate System
+   properties to point to the client's keystore file containing the
+   trusted certificate.  These properties can be set when invoking
+   the "java" command, or can be set programmatically.  For example,
+
+	java -Djavax.net.ssl.trustStore=$HOME/.keystore ...
+
+   See the JSSE Reference Guide for details:
+   http://download.oracle.com/javase/6/docs/technotes/guides/security/jsse/JSSERefGuide.html#CustomizingStores
+
+
+-- Server Identity Check
+
+RFC 2595 specifies addition checks that must be performed on the
+server's certificate to ensure that the server you connected to is
+the server you intended to connect to.  This reduces the risk of
+"man in the middle" attacks.  For compatibility with earlier releases
+of JavaMail, these additional checks are disabled by default.  We
+strongly recommend that you enable these checks when using SSL.  To
+enable these checks, set the "mail.<protocol>.ssl.checkserveridentity"
+property to "true".
+
+
+-- Socket Factories
+
+In earlier releases it was necessary to explicitly set a socket
+factory property to enable use of SSL.  In almost all cases, this
+is no longer necessary.  SSL support is built in.  However, there
+is one case where a special socket factory may be needed.
+
+JavaMail now includes a special SSL socket factory that can simplify
+dealing with servers with self-signed certificates.  While the
+recommended approach is to include the certificate in your keystore
+as described above, the following approach may be simpler in some cases.
+
+The class com.sun.mail.util.MailSSLSocketFactory can be used as a
+simple socket factory that allows trusting all hosts or a specific set
+of hosts.  For example:
+
+	MailSSLSocketFactory sf = new MailSSLSocketFactory();
+	sf.setTrustAllHosts(true);
+	// or
+	// sf.setTrustedHosts(new String[] { "my-server" });
+	props.put("mail.smtp.ssl.enable", "true");
+	// also use following for additional safety
+	//props.put("mail.smtp.ssl.checkserveridentity", "true");
+	props.put("mail.smtp.ssl.socketFactory", sf);
+
+Use of MailSSLSocketFactory avoids the need to add the certificate to
+your keystore as described above, or configure your own TrustManager
+as described below.
+
+
+-- Debugging
+
+Debugging problems with certificates and keystores can be difficult.
+The JSSE Reference Guide contains information on debugging utilities
+that can help.  See:
+http://download.oracle.com/javase/6/docs/technotes/guides/security/jsse/JSSERefGuide.html#Debug
+
+There are some debugging options in the JDK that can help, depending
+on the sorts of problems you're having.  Setting the following system
+properties will produce additional debugging output:
+
+	java.security.debug=certpath
+	javax.net.debug=trustmanager 
+
+Set these on the command line when you run your program using, for example:
+
+	java -Djava.security.debug=certpath -Djavax.net.debug=trustmanager ...
+
+
+-- keytool Usage
+
+Given a certificate for the server as used in case #2 above, you can
+import this certificate into your Java keystore file using a command
+such as:
+
+	keytool -import -alias imap-server -file imap.cer
+
+The keytool command can also be used to generate a self-signed certificate
+that can be used by your mail server, if you're setting up your own server.
+Other utilities, such as those included with the OpenSSL package, can also
+be used to generate such certificates, and they can be imported into the
+Java keystore using keytool.
+
+For more information on using the keytool command, see the keytool
+reference pages at:
+http://download.oracle.com/javase/6/docs/technotes/guides/security/index.html
+
+
+-- Configuring Your Own Trust Manager
+
+When using SSL/TLS, it's important to ensure that the server you connect
+to is actually the server you expected to connect to, to prevent "man in
+the middle" attacks on your communication.  The recommended technique is
+to configure the Java keystore using one of the methods described above.
+If, for some reason, that approach is not workable, it's also possible
+to configure the SSL/TLS implementation to use your own TrustManager
+class to evaluate whether to trust the server you've connected to.
+
+The following "dummy" classes illustrate the framework necessary to create
+your own TrustManager implementation.
+
+First, a replacement for the standard SSLSocketFactory is needed, to allow
+you to specify which TrustManager to use:
+
+==> DummySSLSocketFactory.java <==
+
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.Socket;
+
+import javax.net.SocketFactory;
+import javax.net.ssl.*;
+
+
+/**
+ * DummySSLSocketFactory
+ */
+public class DummySSLSocketFactory extends SSLSocketFactory {
+    private SSLSocketFactory factory;
+
+    public DummySSLSocketFactory() {
+	try {
+	    SSLContext sslcontext = SSLContext.getInstance("TLS");
+	    sslcontext.init(null,
+				 new TrustManager[] { new DummyTrustManager()},
+				 null);
+	    factory = (SSLSocketFactory)sslcontext.getSocketFactory();
+	} catch(Exception ex) {
+	    // ignore
+	}
+    }
+
+    public static SocketFactory getDefault() {
+	return new DummySSLSocketFactory();
+    }
+
+    public Socket createSocket() throws IOException {
+	return factory.createSocket();
+    }
+
+    public Socket createSocket(Socket socket, String s, int i, boolean flag)
+				throws IOException {
+	return factory.createSocket(socket, s, i, flag);
+    }
+
+    public Socket createSocket(InetAddress inaddr, int i,
+				InetAddress inaddr1, int j) throws IOException {
+	return factory.createSocket(inaddr, i, inaddr1, j);
+    }
+
+    public Socket createSocket(InetAddress inaddr, int i)
+				throws IOException {
+	return factory.createSocket(inaddr, i);
+    }
+
+    public Socket createSocket(String s, int i, InetAddress inaddr, int j)
+				throws IOException {
+	return factory.createSocket(s, i, inaddr, j);
+    }
+
+    public Socket createSocket(String s, int i) throws IOException {
+	return factory.createSocket(s, i);
+    }
+
+    public String[] getDefaultCipherSuites() {
+	return factory.getDefaultCipherSuites();
+    }
+
+    public String[] getSupportedCipherSuites() {
+	return factory.getSupportedCipherSuites();
+    }
+}
+
+
+Next you need the actual implementation of the TrustManager.  This dummy
+trust manager trusts anything.  THIS IS NOT SECURE!!!
+
+==> DummyTrustManager.java <==
+
+import javax.net.ssl.X509TrustManager;
+import java.security.cert.X509Certificate;
+
+
+/**
+ * DummyTrustManager - NOT SECURE
+ */
+public class DummyTrustManager implements X509TrustManager {
+
+    public void checkClientTrusted(X509Certificate[] cert, String authType) {
+	// everything is trusted
+    }
+
+    public void checkServerTrusted(X509Certificate[] cert, String authType) {
+	// everything is trusted
+    }
+
+    public X509Certificate[] getAcceptedIssuers() {
+	return new X509Certificate[0];
+    }
+}
+
+Finally, you need to configure JavaMail to use your SSLSocketFactory.
+Set the appropriate protocol-specific property, e.g.,
+
+    props.setProperty("mail.imap.ssl.enable", "true");
+    props.setProperty("mail.imap.ssl.socketFactory.class",
+					"DummySSLSocketFactory");
+    props.setProperty("mail.imap.ssl.socketFactory.fallback", "false");
+    Session session = Session.getInstance(props, null);
+
+Similar properties would need to be set to use other protocols.
+
+      </pre>
+      </div>
+
+                  <!--END CONTENT AREA-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sidebar-first" class="sidebar">
+            <div class="vAccordion">      <div id="block-menu-menu-kenai-project-features" class="block">
+      <div class="block-inner">
+        <h2>Project Features</h2>
+        <div class="content" style="text-align: left; margin: 5px;">
+          <ul class="menu">
+                          
+              
+                <li class="leaf">
+                  <a href="https://java.net/projects/javamail/lists">Mailing Lists</a>
+                </li>
+                
+                            
+                          
+                            <li><a href="https://java.net/projects/javamail/downloads">Downloads</a></li>
+                          
+              
+                <li class="leaf">
+                  <a href="https://java.net/projects/javamail/forums">Message Forums</a>
+                </li>
+                
+                            <li style="margin-left: 12px"><a href="https://java.net/projects/javamail/forums/forum">General Discussion</a></li>
+                          
+              
+                <li class="leaf">
+                  <a href="https://java.net/projects/javamail/sources">Source Code Repositories</a>
+                </li>
+                
+                            <li style="margin-left: 12px"><a href="https://java.net/projects/javamail/sources/mercurial/show">Mercurial Source Code Repos...</a></li><li style="margin-left: 12px"><a href="https://java.net/projects/javamail/sources/website-repository/show">Website Repository</a></li>
+                          
+                            <li><a href="http://javamail.java.net/">Website</a></li>
+                          
+                            <li><a href="https://java.net/projects/javamail/pages/Home">Wiki</a></li>
+                          
+                            <li><a href="https://java.net/projects/javamail/pages/Home" target="_blank">WikiHomePage</a></li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+  
+  
+  <div id="block-menu-menu-kenai-project-features" class="block">
+    <div class="block-inner">
+      <h2>Project Links</h2>
+      <div class="content" style="text-align: left; margin: 5px;">
+        <ul class="menu">
+                      <li class="leaf">
+              <a href="http://www.oracle.com/technetwork/java/javamail/faq/index.html" target="_NEW">JavaMail FAQ</a>
+            </li>
+                      <li class="leaf">
+              <a href="http://javamail.java.net/nonav/docs/api" target="_NEW">API documentation</a>
+            </li>
+                      <li class="leaf">
+              <a href="http://www.oracle.com/technetwork/java/javamail/index.html" target="_NEW">JavaMail API Home Page</a>
+            </li>
+                      <li class="leaf">
+              <a href="http://kenai.com/bugzilla/buglist.cgi?product=javamail&amp;order=Importance&amp;limit=25" target="">JavaMail Issue Tracker</a>
+            </li>
+                  </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="block-menu-menu-kenai-project-about" class="block">
+    <div class="block-inner">
+      <h2>About this Project</h2>
+      <div class="content" style="text-align: left; margin: 5px;">
+        <a href="https://java.net/projects/javamail">JavaMail API Reference Implementation</a>
+                was started in March 2011
+        and has <a href="https://java.net/projects/javamail/members">75 members</a>.
+        The project administrators are
+        <a href="https://java.net/people/626-Bill-Shannon"><span class="person -kenai-shannon">Bill Shannon</span></a>, <a href="https://java.net/people/899517-bill-shannon"><span class="person -kenai-bill.shannon">bill.shannon</span></a>, <a href="https://java.net/people/102776-Ed-Bratt"><span class="person -kenai-ebratt">Ed Bratt</span></a>, <a href="https://java.net/people/912691-bs11"><span class="person -kenai-bs11">bs11</span></a>, and <a href="https://java.net/people/352995-Frank-Nikola"><span class="person -kenai-fnikola">Frank Nikola</span></a>.
+        <br />
+        <ul class="menu">
+                                    <li class="leaf">
+                <a href="https://java.net/projects/javamail/watch">Join This Project</a>
+              </li>
+                              </ul>
+              </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    <div id="tertiary-content">
+      <div id="block-menu-menu-footer-menu"  class="block">
+        <div class="block-inner">
+          <div class="content">
+            <ul class="menu">
+              <li class="leaf first">
+                <a href="http://www.java.net/contact" title="">Feedback</a>
+              </li>
+              <li class="leaf">
+                <a href="http://www.java.net/javanet-faq" title="">FAQ</a>
+              </li>
+              <li class="leaf">
+                <a href="http://www.java.net/javanet-web-site-terms-use" title="">Terms of Use</a>
+              </li>
+              <li class="leaf">
+                <a href="http://www.oracle.com/us/legal/privacy/index.html" title="">Privacy</a>
+              </li>
+              <li class="leaf last">
+                <a href="http://www.oracle.com/us/legal/third-party-trademarks/index.html" title="">Trademarks</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="footer-region">
+        <div class="block">
+          <div class="block-inner">
+            <div class="content">
+              <div style="width: 59%; float: left;">
+                <p>
+                  Your use of this web site or any of its content or software indicates
+                  your agreement to be bound by these
+                  <a href="http://www.java.net/javanet-web-site-terms-use">Terms of Participation</a>.
+                </p>
+                <p>
+                  Copyright © 2014, Oracle Corporation and/or its affiliates. All rights reserved.
+                  Oracle and Java are registered trademarks of Oracle and/or its affiliates.
+                  Other names may be trademarks of their respective owners.
+                </p>
+                <p>(<a href="https://java.net/projects/help/pages/ReleaseNotes">revision 20150626.29986a4</a>)</p>
+              </div>
+              <div style="width: 310px; float: right; text-align: right; margin-right: 10px">
+                <div style="float: right;">
+                  <a href="http://www.oracle.com" title="Oracle"><img alt="" src="https://java.net/theme/images/oracle.png" /></a>
+                  <a href="http://kenai.com" title="Kenai.com"><img alt="" src="https://java.net/theme/images/kenai.png" /></a>
+                  <a href="http://www.cognisync.com" title="Cognisync"><img alt="" src="https://java.net/theme/images/cognisync.png" /></a>
+                  <br />
+                  <div class="powered-by">
+                    Powered by Oracle, Project Kenai and Cognisync
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+        <!-- popups that are anchored to specific elements -->
+    <div class="popupMenuShadow" id="contextMenuShadow"></div>
+    <div class="popupMenuContainer" id="contextMenu">
+      <div class="popupMenu inline">	
+        <div class="upArrow"></div>
+        <div class="header"></div>
+        <div class="contextMenuBody" id="contextMenuBody">&nbsp;</div>
+      </div>
+    </div> 
+    
+    <!-- large content loaded via ajax. Faded but not modal. -->
+    <div class="jqmWindow" id="jqm_large_overlay">
+      <div class="jqmHeader">
+        <div class="jqmTitle">&nbsp;</div>
+        <img alt="Close" class="jqmClose" src="https://asset-2.java.net/images/close.gif?20150626.29986a4" />
+      </div>
+      <div class="jqmTarget">
+        <img alt="loading" src="https://asset-2.java.net/images/activity.gif?20150626.29986a4" />
+      </div>
+      <div class="jqmFooter">
+      	<div class="jqmClose functionButtonContainer"><button class="functionButton" title="Done"> Done </button></div>
+      </div>
+    </div>
+    
+    <!-- confirmation dialogs with buttons. Faded and modal. -->
+    <div class="jqmWindow" id="jqm_dialog">
+      <div class="jqmHeader">
+        <div class="jqmTitle">Please Confirm</div>
+        <img alt="Close" class="jqmClose" src="https://asset-2.java.net/images/close.gif?20150626.29986a4" />
+      </div>
+      <div class="jqmTarget">&nbsp;</div>
+      <div class="jqmFooter">
+      	<div class="jqmClose functionButtonContainer"><button class="functionButton" id="jq_no_button" title="No" onclick="Modal.no()"> No </button></div>
+      	<div class="jqmClose functionButtonContainer"><button class="functionButton" id="jq_yes_button" title="Yes" onclick="Modal.yes();"> Yes </button></div>
+      </div>
+    </div>    
+
+    <div id="jq-ui-autocomplete-parent"></div>
+    
+  </body>
+  <script src="https://asset-3.java.net/javascripts/body_packaged.js?20150626.29986a4" type="text/javascript"></script>
+  <script src="https://java.net/theme/javascript/java_custom.js" type="text/javascript"></script>
+  
+</html>

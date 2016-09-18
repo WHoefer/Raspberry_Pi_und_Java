@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=tVon\ tBis\ cbTag
+comment0.target=GuiUtil(javax.swing.JTextField,\ javax.swing.JTextField,\ javax.swing.JComboBox)
+comment1.params=von
+comment1.target=void\ setVon(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getVon()
+comment3.params=bis
+comment3.target=void\ setBis(java.lang.String)
+comment4.params=tag
+comment4.target=void\ setTag(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getBis()
+comment6.params=listElement
+comment6.target=java.lang.String\ getCommandString(java.lang.String)
+comment6.text=\n\ getCommandString<br>\n\ \n\ Erzeugt\ aus\ dem\ folgenden\ Anzeigeformat\ einen\ commandString.\n\ 0\ 1\ 2\ 3\ 4\ 5\ 6\ 7\ 8\ 9\ 0\ 11\ 12\ 13\ 14\ 15\ 16\ 17\ 18\ 19\ 20\ 21\ 22\ 23\ 24\ 25\ 26\ 27\n\ W\ O\ C\ H\ E\ N\ T\ A\ G\ \ \ \ \ \ \ \ \ \ \ \ \ \ S\ \ S\ \ \:\ \ M\ \ M\ \ \ \ \ -\ \ \ \ \ S\ \ S\ \ \:\ \ M\ \ M\n\n\ @param\ listElement\ Anzeigeformat\n\ @return\ commandString\n
+comment7.params=
+comment7.target=java.lang.String\ getListElement()
+comment7.text=\n\ Method\ getListElement<br>\n\ \n\ Erzeugt\ eine\ formatierte\ Ausgabe.\n\n\ @return\ Ausgabe\n
+comment8.params=commandString
+comment8.target=java.lang.String\ getListElement(java.lang.String)
+comment9.params=jc\ x\ y\ w\ h\ font\ fc\ bc
+comment9.target=void\ init(javax.swing.JComponent,\ int,\ int,\ int,\ int,\ java.awt.Font,\ java.awt.Color,\ java.awt.Color)
+numComments=10
